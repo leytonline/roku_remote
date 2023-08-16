@@ -1,0 +1,8 @@
+.pad {
+    background-color: blue;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}

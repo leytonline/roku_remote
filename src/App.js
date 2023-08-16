@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Pad from './components/Pad/Pad';
+import Volume from './components/Volume/Volume';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+      <Volume />
+      <Pad />
     </div>
   );
 }
